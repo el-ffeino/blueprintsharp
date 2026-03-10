@@ -39,7 +39,7 @@ You might wanna check `test/` directory for a complete example.
 Project was originally meant to be an IDE to make the whole process of writing Libadwaita applications in C# as easy as possible, aiming for the low cortisol levels of writing UI applications that HTML/CSS/JS stack provides.  
 However, taking on the Chromium cartel is one thing, while keeping up with other Linux software devs who introduce compatiblity breaking updates to projects that depend on it for no reason is another thing.  
 
-Besides the IDE with live preview, something like this **would** have been possible without all the extra lines and nesting that it currently requires:
+Besides the IDE with live preview, something like this **would** have been a valid GTK C# application without all the extra lines and nesting that it currently requires (see `test/`):
 ```
 // Run the app with a single line of code
 var Window = Initialize("com.test.app", "ui.blp");
