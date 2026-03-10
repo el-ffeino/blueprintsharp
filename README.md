@@ -58,9 +58,5 @@ Which I won't be implementing as I will no longer work on this project since I d
 
 [Important]
 Project in it's current state is more of a conceptual idea.  
-It can be further improved, this function would be convenient:
+It can be further improved, this function would be convenient:  
 `Widget.GetChild(int parent_index, int child_at_ypos = 0);`  
-
-I made the `Builder` class static to make it as easy to use as possible.  
-Changing it to a normal class could open the door to implementing more features, but so far it doesn't seem necessary.  
-Perhaps both could be done and the user (developer) could choose in some way.  
