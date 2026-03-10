@@ -51,12 +51,12 @@ var AboutTab = Window.GetByName("MyAboutTab");
 AboutTab.SetContent(Builder.Build("about.blp")); 
 ```
 
-[Latest update]
+[Latest update]  
 Version 0.6.2 of GirCore broke dynamic instancing - 0.6.0 preview works  
 Library is fully functional, with the exception of StringList { strings[] };  
 Which I won't be implementing as I will no longer work on this project since I don't have the time to write my own bindings
 
-[Important]
+[Important]  
 Project in it's current state is more of a conceptual idea.  
 It can be further improved, this function would be convenient:  
 `Widget.GetChild(int parent_index, int child_at_ypos = 0);`  
